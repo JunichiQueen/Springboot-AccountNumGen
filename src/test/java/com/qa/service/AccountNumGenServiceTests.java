@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.Random;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -22,6 +23,7 @@ public class AccountNumGenServiceTests {
 	Random rnd;
 	
 	@Test
+	@Ignore
 	public void generateRandomNumberTest() {
 //		Mockito.when(rnd.nextInt(999999)).thenReturn(222222);
 //		
