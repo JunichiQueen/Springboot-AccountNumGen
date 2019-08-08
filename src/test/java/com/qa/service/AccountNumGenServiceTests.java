@@ -22,12 +22,12 @@ public class AccountNumGenServiceTests {
 	@Mock
 	Random rnd;
 	
-	@Test
 	@Ignore
+	@Test
 	public void generateRandomNumberTest() {
-//		Mockito.when(rnd.nextInt(999999)).thenReturn(222222);
-//		
-//		assertEquals(accnumgenservice.generateRandomNumber(), 222222);
+		Mockito.when(rnd.nextInt(999999)).thenReturn(222222);
+		
+		assertEquals(accnumgenservice.generateRandomNumber(), 222222);
 		assertEquals(0, 0);
 		
 	}
